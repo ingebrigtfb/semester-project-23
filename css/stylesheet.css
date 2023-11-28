@@ -42,20 +42,6 @@ header {
     height: 64px;
 }
 
-header > label {
-    font-size: 44px;
-    color: white;
-    margin: -65px 0 0 360px;
-    cursor: pointer;
-}
-
-.header-label-bars {
-    padding-bottom: 50px;
-}
-
-
-
-
 
 /*/////////////////////*/
 /*//////  Nav  ////////*/
@@ -83,8 +69,20 @@ nav {
     display: none;
 }
 
+.header-label-bars {
+    font-size: 44px;
+    color: white;
+    margin: 55px 0 0 95px;
+    position: absolute;
+    cursor: pointer;
+}
+
 .header-label-x {
     display: none;
+    font-size: 42px;
+    color: white;
+    margin: -65px 0 0 353px;
+    cursor: pointer;
 }
 
 #hamburger-menu:checked ~ .header-label-x {
@@ -116,7 +114,7 @@ nav {
 /*/////////////////////*/
 
 footer {
-    height: 280px;
+    height: 400px;
     background-color: #0E5C97;
     color: white;
     display: flex;
@@ -130,11 +128,11 @@ footer ul {
     padding: 0;
     margin: 0;
     margin-top: 10px;
+    
 }
 
 footer a {
     color: white;
-    text-align: center;
     text-decoration: none;    
     font-size: 16px;
     padding: 5px 0;
@@ -146,7 +144,7 @@ footer a {
 
 .news {
     display: flex;
-    margin: 10px 0 30px 0 ;
+    margin: 50px 0 30px 0 ;
     justify-content: center;
 }
 
@@ -155,10 +153,15 @@ footer a {
     flex-direction: column;
 }
 
+.news label {
+    margin: 0 0 10px 0;
+}
+
 .submit-mail {
     background-color: #007AFF;
     color: white;
     border-radius: 5px;
     font-size: 14px;
+    margin: 10px;
 }
 

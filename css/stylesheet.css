@@ -18,6 +18,10 @@ h1 {
   color: black;
 }
 
+main {
+  background-image: url(/pictures/images/19366.jpg)
+}
+
 /*/////////////////////*/
 /*/ /////  HEADER  /////*/
 /*/////////////////////*/
@@ -214,12 +218,14 @@ footer li {
   flex-direction: column;
   max-width: 327px;
   border: 2px solid #1565c0;
+  background-color: #fafafa;
   border-radius: 10px;
   text-align: center;
-  position: relative;
   padding: 0 20px;
   margin-bottom: 40px;
 }
+
+
 
 .home-cards p {
   text-align: left;
@@ -254,7 +260,6 @@ h2 {
 
 .visit-main p {
   padding: 10px 60px;
-  
 }
 
 .space-sec {
@@ -297,8 +302,57 @@ iframe {
 /*/ /// Get involved  //*/
 /*//////////////////////*/
 
+.cards-involved {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.involved-h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
 
+.involved-h1 h1 {
+  font-size: 24px;
+}
+
+.involved-1, .involved-2, .involved-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 327px;
+  border: 2px solid #1565c0;
+  background-color: #fafafa;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+.involved-1 p, .involved-2 p, .involved-3 p {
+  font-size: 16px;
+  padding: 10px 40px;
+} 
+
+.involved-1 h2, .involved-2 h2, .involved-3 h2 {
+  font-size: 16px;
+} 
+
+.involved-1 img {
+  width: 297px;
+  height: auto;
+}
+
+.involved-2 img {
+  width: 248px;
+  height: auto;
+}
+
+.involved-3 img {
+  width: 281px;
+  height: auto;
+}
 
 
 /*/ /////////////////////////////*/
@@ -388,6 +442,37 @@ iframe {
     width: 292px;
     height: 232px;
   }
+
+
+  /*////////////////////////////////*/
+  /*/ /// Get involved tablet  /////*/
+  /*////////////////////////////////*/
+
+  .involved-1 p, .involved-2 p, .involved-3 p {
+    padding: 0 20px;
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .involved-1 h2, .involved-2 h2, .involved-3 h2 {
+    font-size: 20px;
+  }
+  
+  .involved-h1 h1 {
+    font-size: 26px;
+  }
+
+  .involved-1 img {
+    width: 299px;
+  }
+
+  .involved-2 img {
+    width: 300px;
+  }
+
+  .involved-3 img {
+    width: 325px;
+  }
 }
 
 /*/ ////////////////////////*/
@@ -463,9 +548,45 @@ iframe {
     width: 392px;
     height: 332px;
   }
+
+
+  /*//////////////////////////////////*/
+  /*/ /// Get involved desktop  /////*/
+  /*/////////////////////////////////*/
+
+  .involved-1 p, .involved-2 p, .involved-3 p {
+    padding: 0 20px;
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .involved-1 h2, .involved-2 h2, .involved-3 h2 {
+    font-size: 20px;
+  } 
+
+
+  .involved-h1 h1 {
+    font-size: 28px;
+  }
+
+  .involved-1 img {
+    width: 299px;
+  }
+
+  .involved-2 img {
+    width: 300px;
+  }
+
+  .involved-3 img {
+    width: 325px;
+  }
+
 }
 
 @media screen and (min-width: 972px) {
+  /*///////////*/
+  /*/  home  /*/
+  /*//////////*/
   .home-cards {
     flex-direction: row;
     justify-content: space-evenly;
@@ -480,6 +601,23 @@ iframe {
   .home-card-3 {
     flex-grow: 1;
   }
+
+/*////////////////////*/
+/*///  Get involved  /*/
+/*////////////////////*/
+
+.cards-involved {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+
+
+
 }
 
 @media screen and (min-width: 1140px) {
@@ -560,9 +698,9 @@ iframe {
     margin-top: -631px;
   }
 
-.left-section .space-sec {
-  margin-bottom: 100px;
-}
+  .left-section .space-sec {
+    margin-bottom: 100px;
+  }
 
   .visit-main p {
     margin: 0;

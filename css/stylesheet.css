@@ -9,8 +9,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h2,
 p {
   font-size: 16px;
+  color: black;
 }
 
 h1 {
@@ -19,7 +21,7 @@ h1 {
 }
 
 main {
-  background-image: url(../pictures/images/19366.jpg)
+  background-image: url(../pictures/images/19366.jpg);
 }
 
 /*/////////////////////*/
@@ -225,15 +227,13 @@ footer li {
   margin-bottom: 40px;
 }
 
-
-
 .home-cards p {
   text-align: left;
   font-size: 16px;
 }
 
 .home-cards h2 {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 /*//////////////////*/
@@ -243,8 +243,11 @@ footer li {
   display: flex;
   align-items: center;
   flex-direction: column;
-  max-width: 1200px;
-  margin: 0 auto;
+  background-color: #fafafa;
+  border: 2px solid #1565c0;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 50px auto;
 }
 
 .visit-main h1 {
@@ -312,14 +315,16 @@ iframe {
 
 .involved-h1 {
   text-align: center;
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 
 .involved-h1 h1 {
   font-size: 24px;
 }
 
-.involved-1, .involved-2, .involved-3 {
+.involved-1,
+.involved-2,
+.involved-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -330,14 +335,18 @@ iframe {
   margin-bottom: 100px;
 }
 
-.involved-1 p, .involved-2 p, .involved-3 p {
+.involved-1 p,
+.involved-2 p,
+.involved-3 p {
   font-size: 16px;
   padding: 10px 40px;
-} 
+}
 
-.involved-1 h2, .involved-2 h2, .involved-3 h2 {
+.involved-1 h2,
+.involved-2 h2,
+.involved-3 h2 {
   font-size: 16px;
-} 
+}
 
 .involved-1 img {
   width: 297px;
@@ -354,6 +363,122 @@ iframe {
   height: auto;
 }
 
+/*//////////////////////*/
+/*/ Exhibition Spaces  /*/
+/*//////////////////////*/
+
+.exhibition-spaces {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fafafa;
+  border: 2px solid #1565c0;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+.cosmology,
+.evolution,
+.biology-medicine,
+.robotics-ai,
+.ecology {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cosmology img {
+  width: 342px;
+  height: auto;
+}
+
+.cosmology p,
+.evolution p,
+.biology-medicine p,
+.robotics-ai p,
+.ecology p {
+  padding: 10px 40px 0;
+}
+
+.evolution img {
+  width: 351px;
+  height: auto;
+}
+
+.biology-medicine img {
+  width: 267px;
+  height: auto;
+}
+
+.robotics-ai img {
+  width: 217px;
+  height: auto;
+}
+
+.ecology img {
+  width: 264px;
+  height: auto;
+}
+
+/*////////////////*/
+/*/ Contacts Us  /*/
+/*////////////////*/
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form p {
+  margin-bottom: 30px;
+}
+
+#contactform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-form input {
+  color: grey;
+}
+
+
+#showmessage {
+  display: none;
+}
+
+.submit-btn {
+  background-color: #660000;
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  width: 80px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#showmessage:checked ~ .message {
+  display: block;
+}
+
+.message {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+}
 
 /*/ /////////////////////////////*/
 /*///  media quaries tablet  ///*/
@@ -363,6 +488,12 @@ iframe {
   /*/////////////////////*/
   /*/ /////  Footer  /////*/
   /*/////////////////////*/
+
+  h2,
+  h3,
+  p {
+    font-size: 18px;
+  }
 
   footer {
     height: 300px;
@@ -416,18 +547,15 @@ iframe {
   /*/ ///  Visit  /////*/
   /*//////////////////*/
 
+  .visit-main {
+    max-width: 500px;
+  }
   .visit-main h1 {
     font-size: 26px;
   }
 
-  .visit-main h3,
-  h2 {
-    font-size: 18px;
-  }
-
   .visit-main p {
     padding: 10px 100px;
-    font-size: 18px;
   }
 
   .visit-main ul li {
@@ -443,21 +571,24 @@ iframe {
     height: 232px;
   }
 
-
   /*////////////////////////////////*/
   /*/ /// Get involved tablet  /////*/
   /*////////////////////////////////*/
 
-  .involved-1 p, .involved-2 p, .involved-3 p {
+  .involved-1 p,
+  .involved-2 p,
+  .involved-3 p {
     padding: 0 20px;
     font-size: 20px;
     margin-bottom: 100px;
   }
-  
-  .involved-1 h2, .involved-2 h2, .involved-3 h2 {
+
+  .involved-1 h2,
+  .involved-2 h2,
+  .involved-3 h2 {
     font-size: 20px;
   }
-  
+
   .involved-h1 h1 {
     font-size: 26px;
   }
@@ -473,6 +604,18 @@ iframe {
   .involved-3 img {
     width: 325px;
   }
+
+  /*////////////////////////////*/
+  /*/ Exhibition Spaces tablet /*/
+  /*////////////////////////////*/
+
+  .exhibition-spaces {
+    max-width: 500px;
+  }
+
+  .exhibition-spaces h1 {
+    font-size: 26px;
+  }
 }
 
 /*/ ////////////////////////*/
@@ -480,6 +623,12 @@ iframe {
 /*/////////////////////////*/
 
 @media screen and (min-width: 768px) {
+  h2,
+  h3,
+  p {
+    font-size: 20px;
+  }
+
   /*/ ////////////////////*/
   /*//////  Footer  /////*/
   /*/ ////////////////////*/
@@ -520,19 +669,16 @@ iframe {
   /*/ /// Visit desktop  /////*/
   /*//////////////////////////*/
 
+  .visit-main {
+    max-width: 700px;
+  }
   .visit-main h1 {
     font-size: 28px;
     text-align: center;
   }
 
-  .visit-main h3,
-  h2 {
-    font-size: 20px;
-  }
-
   .visit-main p {
     padding: 10px 100px;
-    font-size: 20px;
   }
 
   .visit-main ul li {
@@ -549,21 +695,17 @@ iframe {
     height: 332px;
   }
 
-
   /*//////////////////////////////////*/
   /*/ /// Get involved desktop  /////*/
   /*/////////////////////////////////*/
 
-  .involved-1 p, .involved-2 p, .involved-3 p {
+  .involved-1 p,
+  .involved-2 p,
+  .involved-3 p {
     padding: 0 20px;
     font-size: 20px;
     margin-bottom: 100px;
   }
-  
-  .involved-1 h2, .involved-2 h2, .involved-3 h2 {
-    font-size: 20px;
-  } 
-
 
   .involved-h1 h1 {
     font-size: 28px;
@@ -581,6 +723,20 @@ iframe {
     width: 325px;
   }
 
+  /*////////////////////////////*/
+  /*/ Exhibition Spaces desktop /*/
+  /*////////////////////////////*/
+
+  .exhibition-spaces {
+    max-width: 700px;
+  }
+  .exhibition-spaces p {
+    padding: 10px 100px 0;
+  }
+
+  .exhibition-spaces h1 {
+    font-size: 28px;
+  }
 }
 
 @media screen and (min-width: 972px) {
@@ -602,22 +758,18 @@ iframe {
     flex-grow: 1;
   }
 
-/*////////////////////*/
-/*///  Get involved  /*/
-/*////////////////////*/
+  /*////////////////////*/
+  /*///  Get involved  /*/
+  /*////////////////////*/
 
-.cards-involved {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: space-between;
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-
-
-
+  .cards-involved {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 1140px) {
@@ -675,6 +827,7 @@ iframe {
   /*//////////////////*/
 
   .visit-main {
+    max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -707,8 +860,41 @@ iframe {
     padding: 10px 100px;
     font-size: 20px;
   }
-}
 
+  /*//////////////////////*/
+  /*/ Exhibition Spaces  /*/
+  /*//////////////////////*/
+
+  .exhibition-spaces {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .exhibition-spaces p {
+    padding: 10px 100px 0;
+  }
+
+  .exhibition-spaces h1 {
+    grid-column: span 2;
+    text-align: center;
+  }
+  .evolution {
+    margin-top: 75px;
+  }
+
+  .robotics-ai {
+    margin-top: -180px;
+  }
+
+  .ecology {
+    margin-bottom: 50px;
+  }
+
+  .biology-medicine {
+    margin-bottom: 40px;
+    margin-top: -40px;
+  }
+}
 @media screen and (min-width: 1456px) {
   .get-involved-add {
     height: 600px;

@@ -55,21 +55,53 @@ nav {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-#hamburger-menu {
+#hamburger-menu, #header-x {
   display: none;
 }
 
 #hamburger-menu:checked ~ nav {
   display: block;
+
+}
+#hamburger-menu:checked ~ .header-label-bars {
+  opacity: 0%;
+}
+
+#hamburger-menu:checked ~ #header-x {
+  display: block;
+}
+
+
+.header-label-bars{
+  z-index: 100;
+  position: relative;
+}
+
+
+header label i {
+  margin: -55px 20px 0 0;
+  padding: 0;
+  cursor: pointer;
 }
 
 header label i {
   font-size: 44px;
   color: white;
-  margin: -55px 20px 0 0;
-  padding: 0;
-  cursor: pointer;
 }
+
+#header-x {
+  font-size: 52px;
+  color: white;
+}
+
+#header-x {
+  position: absolute;
+  top: 62px;
+  right: 20px;
+  z-index: 1;
+}
+
+
 
 header label {
   display: flex;
@@ -421,6 +453,53 @@ iframe {
   height: auto;
 }
 
+/*/////////////*/
+/*/  Explore  /*/
+/*/////////////*/
+
+.kids-explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.kids-explore img {
+  width: 267px;
+  height: auto;
+}
+
+.explore-h1-p {
+  text-align: center;
+  
+}
+.explore-h1-p p {
+  margin: 20px 50px 50px;
+  text-align: left;
+}
+
+
+.explore-h1-p h1 {
+  font-size: 24px;
+}
+
+.kids-explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 327px;
+  border: 2px solid #1565c0;
+  background-color: #fafafa;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+.kids-explore {
+  font-size: 16px;
+  padding: 10px 40px;
+}
+
 /*////////////////*/
 /*/ Contacts Us  /*/
 /*////////////////*/
@@ -437,6 +516,10 @@ iframe {
 
 .contact-form p {
   margin-bottom: 30px;
+}
+
+.contact-form h1 {
+  font-size: 24px;
 }
 
 #contactform {
@@ -546,7 +629,7 @@ iframe {
   }
 
   /*//////////////////*/
-  /*/ ///  Visit  /////*/
+  /*/  Visit tavlet  /*/
   /*//////////////////*/
 
   .visit-main {
@@ -623,6 +706,39 @@ iframe {
   .exhibition-spaces h1 {
     font-size: 26px;
   }
+
+
+/*///////////////////////*/
+/*/ Contacts Us tablet  /*/
+/*///////////////////////*/
+.contact-form {
+  max-width: 450px;
+}
+
+.contact-form h1 {
+  font-size: 26px;
+}
+
+#contactform input {
+  width: 250px;
+}
+
+#contactform textarea {
+  width: 250px;
+  
+}
+
+#contactform button {
+  font-size: 18px;
+  width: 100px;
+}
+
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+}
 }
 
 /*/ ////////////////////////*/

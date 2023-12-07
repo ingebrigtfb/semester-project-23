@@ -51,7 +51,7 @@
       <div class="contact-form">
         <h1>Contact us</h1>
         <p>feel free to reach out</p>
-        <form id="contactform" action="#">
+        <form id="contactform" action="#" method="GET">
             <label for="name">Full name</label>
             <input type="text" id="name" name="name" required>
 
@@ -59,17 +59,12 @@
             <input type="email" id="email" name="email" required>
 
             <label for="phone">Phone number</label>
-            <input type="phone" id="phone" name="phone" required>
+            <input type="tel" id="phone" name="phone" required>
 
-            <label for="message">You’re Question? </label>
-            <textarea name="message" id="message" required></textarea>
-
-            <input type="checkbox" id="showmessage">
-            <label for="showmessage" class="submit-btn">Submit</label>
-
-            <div class="message" id="sucessmessage">
-                Thank you! Your message has been received to us!
-            </div>
+            <label for="message">Message </label>
+            <textarea name="message" id="message" maxlength="255" required placeholder="You’re Question?"></textarea>
+            
+            <button type="submit">Submit</button>
 
         </form>
       </div>

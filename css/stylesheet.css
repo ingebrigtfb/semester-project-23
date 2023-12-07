@@ -246,8 +246,8 @@ footer li {
   background-color: #fafafa;
   border: 2px solid #1565c0;
   border-radius: 10px;
-  max-width: 400px;
-  margin: 50px auto;
+  max-width: 350px;
+  margin: 20px auto 50px;
 }
 
 .visit-main h1 {
@@ -282,8 +282,8 @@ h2 {
 }
 
 iframe {
-  width: 350px;
-  height: 275px;
+  width: 300px;
+  height: 225px;
   margin-bottom: 50px;
 }
 
@@ -315,7 +315,7 @@ iframe {
 
 .involved-h1 {
   text-align: center;
-  margin: 50px 0;
+  margin: 20px 0 50px;
 }
 
 .involved-h1 h1 {
@@ -374,8 +374,8 @@ iframe {
   background-color: #fafafa;
   border: 2px solid #1565c0;
   border-radius: 10px;
-  max-width: 400px;
-  margin: 50px auto;
+  max-width: 350px;
+  margin: 20px auto 50px;
 }
 
 .cosmology,
@@ -389,7 +389,7 @@ iframe {
 }
 
 .cosmology img {
-  width: 342px;
+  width: 282px;
   height: auto;
 }
 
@@ -402,7 +402,7 @@ iframe {
 }
 
 .evolution img {
-  width: 351px;
+  width: 331px;
   height: auto;
 }
 
@@ -428,8 +428,11 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 400px;
-  margin: 0 auto;
+  background-color: #fafafa;
+  border: 2px solid #1565c0;
+  border-radius: 10px;
+  margin: 20px auto 50px;
+  max-width: 350px;
 }
 
 .contact-form p {
@@ -441,16 +444,25 @@ iframe {
   flex-direction: column;
   align-items: center;
 }
-.contact-form input {
-  color: grey;
+
+#contactform input {
+  border-radius: 5px;
+  border-style: none;
+  border: solid 1px;
+  width: 200px;
+  height: 20px;
+}
+
+#contactform textarea {
+  border-radius: 5px;
+  border-style: none;
+  border: solid 1px;
+  width: 200px;
+  height: 50px;
 }
 
 
-#showmessage {
-  display: none;
-}
-
-.submit-btn {
+#contactform button {
   background-color: #660000;
   font-size: 16px;
   color: white;
@@ -460,19 +472,9 @@ iframe {
   border-radius: 10px;
   border: none;
   cursor: pointer;
+  margin: 30px auto;
 }
 
-#showmessage:checked ~ .message {
-  display: block;
-}
-
-.message {
-  display: none;
-  margin-top: 10px;
-  padding: 10px;
-  background-color: #4caf50;
-  color: white;
-}
 
 .contact-form label,
 .contact-form input,
@@ -611,6 +613,11 @@ iframe {
 
   .exhibition-spaces {
     max-width: 500px;
+  }
+
+  .cosmology img {
+    width: 342px;
+    height: auto;
   }
 
   .exhibition-spaces h1 {

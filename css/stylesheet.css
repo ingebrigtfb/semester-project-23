@@ -192,9 +192,12 @@ footer li {
 }
 
 .submit-mail {
-  background-color: #007aff;
+  background-color: #660000;
   color: white;
   border-radius: 5px;
+  padding: 5px;
+  border-style: none;
+  cursor: pointer;
   font-size: 16px;
   margin: 10px;
 }

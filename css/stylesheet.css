@@ -464,7 +464,7 @@ iframe {
 /*/  Explore  /*/
 /*/////////////*/
 
-.explore-main {
+.cards-explore {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -488,13 +488,14 @@ iframe {
 }
 
 .explore-h1-p {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   
 }
 .explore-h1-p p {
   margin: 20px 100px 50px;
   max-width: 350px;
-
 }
 
 
@@ -591,15 +592,23 @@ iframe {
 /*/ /////////////////////////////*/
 
 @media screen and (min-width: 576px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  h2{
+    font-size: 20px;
+  }
+    h3,
+    p {
+      font-size: 18px;
+    }
+  
+  
   /*/////////////////////*/
   /*/ /////  Footer  /////*/
   /*/////////////////////*/
 
-  h2,
-  h3,
-  p {
-    font-size: 18px;
-  }
 
   footer {
     height: 300px;
@@ -646,7 +655,7 @@ iframe {
   }
 
   .home-cards h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   /*//////////////////*/
@@ -728,6 +737,31 @@ iframe {
     font-size: 26px;
   }
 
+/*///////////////////*/
+/*/ Explore tablet  /*/
+/*///////////////////*/
+
+  .explore-h1-p p {
+    margin: 20px 100px 50px;
+    max-width: 400px;
+  }
+
+  .explore-h1-p h1 {
+    font-size: 26px;
+  }
+
+  .explore-h1-p p {
+    font-size: 18px;
+  }
+
+  .cards-explore p {
+    font-size: 18px;
+  }
+
+  .cards-explore h2 {
+    font-size: 20px;
+  }
+
 
 /*///////////////////////*/
 /*/ Contacts Us tablet  /*/
@@ -767,7 +801,11 @@ iframe {
 /*/////////////////////////*/
 
 @media screen and (min-width: 768px) {
-  h2,
+  
+  h2 {
+    font-size: 22px;
+  }
+
   h3,
   p {
     font-size: 20px;
@@ -881,6 +919,41 @@ iframe {
   .exhibition-spaces h1 {
     font-size: 28px;
   }
+
+/*///////////////////*/
+/*/ Explore desktop /*/
+/*///////////////////*/
+
+.explore-h1-p p {
+  margin: 20px 100px 50px;
+  max-width: 400px;
+}
+
+.explore-h1-p h1 {
+  font-size: 28px;
+}
+
+.explore-h1-p p {
+  font-size: 20px;
+}
+
+.cards-explore p {
+  font-size: 20px;
+}
+
+.cards-explore h2 {
+  font-size: 22px;
+}
+
+/*///////////////////////*/
+/*/ Contacts Us desktop /*/
+/*///////////////////////*/
+
+.contact-form h1 {
+  font-size: 28px;
+}
+  
+
 }
 
 @media screen and (min-width: 972px) {
@@ -914,6 +987,22 @@ iframe {
     max-width: 1400px;
     margin: 0 auto;
   }
+
+  /*/////////////*/
+  /*/// Explore /*/
+  /*/////////////*/
+  .cards-explore {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+
+
+
 }
 
 @media screen and (min-width: 1140px) {

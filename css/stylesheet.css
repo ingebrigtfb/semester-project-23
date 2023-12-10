@@ -845,7 +845,7 @@ iframe {
 
   }
   .home-cards {
-    margin: 50px 0;
+    margin: 50px auto;
   }
 
   /*/////////////////////////*/
@@ -965,9 +965,12 @@ iframe {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: stretch;
+    max-width: 1400x;
   }
   .home-cards div {
     width: 30%;
+    margin: 0 10px;
+    
   }
 
   .home-card-1,
@@ -986,7 +989,12 @@ iframe {
     align-items: stretch;
     justify-content: space-between;
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 50px auto;
+
+  }
+
+  .cards-involved section {
+    margin: 0 10px;
   }
 
   /*/////////////*/

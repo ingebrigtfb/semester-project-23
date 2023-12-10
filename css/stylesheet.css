@@ -743,7 +743,7 @@ iframe {
 /*///////////////////*/
 
   .explore-h1-p p {
-    margin: 20px 100px 50px;
+    margin: 20px 100px 20px;
     max-width: 400px;
   }
 
@@ -926,7 +926,7 @@ iframe {
 /*///////////////////*/
 
 .explore-h1-p p {
-  margin: 20px 100px 50px;
+  margin: 20px 100px 20px;
   max-width: 400px;
 }
 
@@ -1007,6 +1007,10 @@ iframe {
     justify-content: space-between;
     max-width: 1400px;
     margin: 0 auto;
+  }
+
+  .cards-explore section {
+    margin: 50px 10px;
   }
 
 

@@ -965,7 +965,7 @@ iframe {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: stretch;
-    max-width: 1400x;
+    max-width: 1400px;
   }
   .home-cards div {
     width: 30%;

@@ -34,7 +34,6 @@ main {
 
 header {
   height: 145px;
-  border-bottom: solid 1px;
   background-color: #0e5c97;
   font-family: "Poppins", sans-serif;
 }
@@ -43,6 +42,7 @@ header {
   margin-top: 50px;
   margin-left: 10px;
   height: 64px;
+  width: 245px;
 }
 
 /*/ ////////////////////*/

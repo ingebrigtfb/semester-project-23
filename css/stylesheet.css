@@ -123,6 +123,7 @@ header label {
 
 .nav-cont a {
   font-size: 28px;
+  font-weight: 600;
   margin: 10px 0;
   color: black;
   text-decoration: none;

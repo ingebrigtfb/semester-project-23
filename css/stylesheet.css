@@ -25,9 +25,6 @@ main {
   background-size: cover;
 }
 
-
-
-
 /*/////////////////////*/
 /*/ /////  HEADER  /////*/
 /*/////////////////////*/
@@ -74,13 +71,13 @@ header {
   text-decoration: underline;
 }
 
-#hamburger-menu, #header-x {
+#hamburger-menu,
+#header-x {
   display: none;
 }
 
 #hamburger-menu:checked ~ nav {
   display: flex;
-
 }
 #hamburger-menu:checked ~ .header-label-bars {
   opacity: 0%;
@@ -90,12 +87,10 @@ header {
   display: block;
 }
 
-
-.header-label-bars{
+.header-label-bars {
   z-index: 100;
   position: relative;
 }
-
 
 header label i {
   margin: -55px 20px 0 0;
@@ -104,7 +99,6 @@ header label i {
   font-size: 44px;
   color: white;
 }
-
 
 #header-x {
   position: absolute;
@@ -115,13 +109,10 @@ header label i {
   color: white;
 }
 
-
-
 header label {
   display: flex;
   justify-content: flex-end;
 }
-
 
 /*/////////////////////*/
 /*/ /////  Footer  /////*/
@@ -139,7 +130,6 @@ footer {
 footer ul {
   padding: 0;
   margin: 20px 0 0 0;
-  
 }
 
 footer a {
@@ -166,7 +156,6 @@ footer li {
   flex-direction: column;
   align-items: center;
   margin: 50px 0 30px 0;
-  
 }
 
 .news label {
@@ -483,13 +472,11 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 .explore-h1-p p {
   margin: 20px 100px 50px;
   max-width: 350px;
 }
-
 
 .explore-h1-p h1 {
   font-size: 24px;
@@ -558,7 +545,6 @@ iframe {
   height: 50px;
 }
 
-
 #contactform button {
   background-color: #660000;
   font-size: 16px;
@@ -571,7 +557,6 @@ iframe {
   cursor: pointer;
   margin: 30px auto;
 }
-
 
 .contact-form label,
 .contact-form input,
@@ -587,20 +572,18 @@ iframe {
   h1 {
     font-size: 26px;
   }
-  
-  h2{
+
+  h2 {
     font-size: 20px;
   }
-    h3,
-    p {
-      font-size: 18px;
-    }
-  
-  
+  h3,
+  p {
+    font-size: 18px;
+  }
+
   /*/////////////////////*/
   /*/ // Footer tablet  /*/
   /*/////////////////////*/
-
 
   footer {
     height: 300px;
@@ -729,9 +712,9 @@ iframe {
     font-size: 26px;
   }
 
-/*///////////////////*/
-/*/ Explore tablet  /*/
-/*///////////////////*/
+  /*///////////////////*/
+  /*/ Explore tablet  /*/
+  /*///////////////////*/
 
   .explore-h1-p p {
     margin: 20px 100px 20px;
@@ -754,38 +737,35 @@ iframe {
     font-size: 20px;
   }
 
+  /*///////////////////////*/
+  /*/ Contacts Us tablet  /*/
+  /*///////////////////////*/
+  .contact-form {
+    max-width: 450px;
+  }
 
-/*///////////////////////*/
-/*/ Contacts Us tablet  /*/
-/*///////////////////////*/
-.contact-form {
-  max-width: 450px;
-}
+  .contact-form h1 {
+    font-size: 26px;
+  }
 
-.contact-form h1 {
-  font-size: 26px;
-}
+  #contactform input {
+    width: 250px;
+  }
 
-#contactform input {
-  width: 250px;
-}
+  #contactform textarea {
+    width: 250px;
+  }
 
-#contactform textarea {
-  width: 250px;
-  
-}
+  #contactform button {
+    font-size: 18px;
+    width: 100px;
+  }
 
-#contactform button {
-  font-size: 18px;
-  width: 100px;
-}
-
-
-.contact-form label,
-.contact-form input,
-.contact-form textarea {
-  margin-bottom: 10px;
-}
+  .contact-form label,
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 10px;
+  }
 }
 
 /*/ ////////////////////////*/
@@ -793,7 +773,6 @@ iframe {
 /*/////////////////////////*/
 
 @media screen and (min-width: 768px) {
-  
   h2 {
     font-size: 22px;
   }
@@ -833,7 +812,6 @@ iframe {
 
   .cards-title {
     font-size: 28px;
-
   }
   .home-cards {
     margin: 50px auto;
@@ -912,40 +890,38 @@ iframe {
     font-size: 28px;
   }
 
-/*///////////////////*/
-/*/ Explore desktop /*/
-/*///////////////////*/
+  /*///////////////////*/
+  /*/ Explore desktop /*/
+  /*///////////////////*/
 
-.explore-h1-p p {
-  margin: 20px 100px 20px;
-  max-width: 400px;
-}
+  .explore-h1-p p {
+    margin: 20px 100px 20px;
+    max-width: 400px;
+  }
 
-.explore-h1-p h1 {
-  font-size: 28px;
-}
+  .explore-h1-p h1 {
+    font-size: 28px;
+  }
 
-.explore-h1-p p {
-  font-size: 20px;
-}
+  .explore-h1-p p {
+    font-size: 20px;
+  }
 
-.cards-explore p {
-  font-size: 20px;
-}
+  .cards-explore p {
+    font-size: 20px;
+  }
 
-.cards-explore h2 {
-  font-size: 22px;
-}
+  .cards-explore h2 {
+    font-size: 22px;
+  }
 
-/*///////////////////////*/
-/*/ Contacts Us desktop /*/
-/*///////////////////////*/
+  /*///////////////////////*/
+  /*/ Contacts Us desktop /*/
+  /*///////////////////////*/
 
-.contact-form h1 {
-  font-size: 28px;
-}
-  
-
+  .contact-form h1 {
+    font-size: 28px;
+  }
 }
 
 @media screen and (min-width: 972px) {
@@ -961,7 +937,6 @@ iframe {
   .home-cards div {
     width: 30%;
     margin: 0 10px;
-    
   }
 
   .home-card-1,
@@ -981,7 +956,6 @@ iframe {
     justify-content: space-between;
     max-width: 1400px;
     margin: 50px auto;
-
   }
 
   .cards-involved section {
@@ -1003,10 +977,6 @@ iframe {
   .cards-explore section {
     margin: 50px 10px;
   }
-
-
-
-
 }
 
 @media screen and (min-width: 1140px) {

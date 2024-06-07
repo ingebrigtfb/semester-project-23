@@ -6,7 +6,7 @@ Webpage: https://ingebrigtfb.github.io/semester-project-23/index.html
 
 ## Description
 
-Comunity sience center website made with html and css. 
+Comunity sience center website made with html and css. My goal was to make a site suitable for kids from 7-15yrs but also adults/parents.
 
 ## Built With
 

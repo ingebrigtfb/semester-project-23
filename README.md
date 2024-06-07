@@ -17,5 +17,5 @@ Comunity sience center website made with html and css.
 ## Contact
 
 - [Ingebrigt Furnes Bøe linked page](https://www.linkedin.com/in/ingebrigt-furnes-b%C3%B8e-5a86582a8/)
-- [Ingebrigt Furnes Bøe mail] ingebrigt03@gmail.com
+- My email adress: ingebrigt03@gmail.com
   
